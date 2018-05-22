@@ -15,6 +15,10 @@ Then run the compiler on it with an output file parameter `gcc helloworld -o hel
 
 `gcc` will compile your C code into a program that you can run like this `./helloworld.out`
 
+if you would like to use a file as an input you can pass the file to your `.out` with a left caret `<` 
+
+i.e. -> './a.out < a.c' 
+
 #### Resources <a name="resources"></a>
 
 [The C Programming Language](https://pdfs.semanticscholar.org/f8d9/8d057be9a22e7f686db8265b886ea6f5b3c1.pdf)
