@@ -6,7 +6,7 @@ int main (){
   c = getchar();
   while (c != EOF) {
 	  if(c <= 122 && c >= 97) {
-		  printf("%c", c-32);
+	        printf("%c", c-32);
 	  } else {
 	  	printf("%c", c);
 	  }
